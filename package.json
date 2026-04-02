@@ -1,0 +1,23 @@
+{
+  "name": "@pipeworx/mcp-flights",
+  "version": "1.0.0",
+  "description": "MCP server for tracking flights via OpenSky Network API",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "files": ["src"],
+  "scripts": {
+    "build": "tsc",
+    "check": "tsc --noEmit"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "flights", "opensky", "aviation"],
+  "author": "Pipeworx <hello@pipeworx.io>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-flights.git"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
