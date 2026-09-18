@@ -81,3 +81,13 @@ The gateway picks the right tool and fills the arguments automatically.
 ## License
 
 MIT
+
+## No MCP client? Call it over HTTP
+
+```bash
+curl -X POST https://gateway.pipeworx.io/v1/tools/get_flights_in_area \
+  -H 'Content-Type: application/json' \
+  -d '{"lamin":40.6,"lomin":-74,"lamax":40.8,"lomax":-73.8}'
+```
+
+No account needed for the first calls. Inspect any tool: `GET https://gateway.pipeworx.io/v1/tools/get_flights_in_area`. Find one: `POST https://gateway.pipeworx.io/v1/tools/search_packs` with `{"query":"..."}`.
