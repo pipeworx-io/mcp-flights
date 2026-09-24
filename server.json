@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/flights",
+  "title": "Flights",
+  "description": "Flights MCP — live aircraft tracking + aircraft/route registry",
+  "version": "1.0.1",
+  "websiteUrl": "https://pipeworx.io/packs/flights",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-flights",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/flights/mcp"
+    }
+  ]
+}
