@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-flights",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Flights MCP — live aircraft tracking + aircraft/route registry",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-716e90f39b6bc4a40aa576f33a7bf09f795c9cb5eb7d6dc505774d67a447e7a8",
-    "sourceCommit": "91681e9a4a137fa0051d58e32f38c64b6334af5c"
+    "sourceHash": "v1-cce71878c3f18808c9bfc7ba5889777a2054a797d0a19e08dc158dabdfcd5e2b",
+    "sourceCommit": "712a5e0171ea24483214329d0cd7efdfd9b80352"
   }
 }
